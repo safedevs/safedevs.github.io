@@ -107,3 +107,18 @@ nav {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
+
+.box {
+  box-sizing: border-box;
+  width: 30%;
+  border: 3px solid #faca00;
+  border-radius: 25px;
+  float: left;
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
