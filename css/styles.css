@@ -1,0 +1,136 @@
+body {
+  font-family: Montserrat;
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline-block;
+  color: #000000;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+header {
+  background: #ffffff;
+  padding-top: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.nav-items {
+  float: right;
+}
+
+.nav-items a {
+  text-decoration: underline #faca00;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-items a:hover {
+  background-color: #faca00;
+}
+
+.logo {
+  max-width: 6em;
+}
+
+.masthead {
+  background-image: url("../img/undraw_coolness_dtmq.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 20%;
+  background-position-y: 50%;
+  height: auto;
+  width: auto;
+  min-height: 600px;
+}
+
+.head-title {
+  position: absolute;
+  top: 50%; left: 80%;
+  transform: translate(-50%,-50%);
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #ffffff 50%, #faca00 50%);
+}
+
+.box {
+  box-sizing: border-box;
+  width: 30%;
+  border: 3px solid #faca00;
+  border-radius: 20px;
+  float: left;
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin: 10px;
+  padding: 0em 3em 3em 3em;
+}
+
+.box-title {
+  font-size: 22px;
+}
+
+.about {
+  background-image: url("../img/safe_devs_sketches3.png");
+  background-color: #faca00;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: bottom;
+  width: auto;
+  min-height: 25em;
+}
+
+@media only screen and (max-width: 800px) {
+  .boxes {
+    flex-direction: column;
+    background: linear-gradient(180deg, #faca00 50%, #faca00 50%);
+  }
+
+  .box {
+    max-width: 60%;
+    width: 100%;
+  }     
+}
