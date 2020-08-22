@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 p {
@@ -24,7 +24,7 @@ p {
 .nav-link {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   font-size: 20px;
   display: inline-block;
   color: #000000;
@@ -140,30 +140,97 @@ header {
 }
 
 .contact{
-  background-image: url("../img/undraw_contact_us_15o2.svg");
-  background-size: 30%;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: bottom;
-  width: auto;
-  min-height: 25em;
+  background-color: #faca00;
+  background: #faca00
 }
 
 .about {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10rem;
+  padding: 0rem 12rem;
 }
 
 .person {
-  padding: 0 5rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
   text-align: center;
+}
+
+.call-to-action-bg {
+  background: linear-gradient(180deg, #ffffff 50%, #faca00 50%);
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(26, 26, 26);
+  border-radius: 30px;
+  color: white;
+  margin: 100px;
+  margin-top: 0px;
+  padding: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.call-to-action h1 {
+  font-weight: 600;
+} 
+
+.call-to-action h3 {
+  font-weight: 200;
+} 
+
+.call-to-action a {
+  text-decoration: none;
+  color: white;
+  padding: 1.25em 2em;
+  font-weight: 400;
+  border: 2px solid #FACA00;
+  border-radius: 400px;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 300;
+  transition-duration: 0.2s;
+} 
+
+.call-to-action a:hover {
+  color: black;
+  background-color: #FACA00;
+} 
+
+.social-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+  border-radius: 50%;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
 
 .footer {
   text-align: center;
-  padding: 100px;
+  font-weight: 200;
+  padding: 20px;
+  padding-bottom: 15px;
+  background-color: #faca00;
 }
 
 @media only screen and (max-width: 1200px) {
