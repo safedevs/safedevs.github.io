@@ -12,26 +12,42 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/styles.css" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Safe Devs</title>
 </head>
 
 <body>
 
-  <header class="navbar smart-scroll">
-    <nav>
-      <img src="img/safe_devs_logo.png" class="logo" />
-      <div class="nav-items">
-        <a href="#services" class="nav-link hvr-sweep-to-top">serviços</a>
-        <a href="#about" class="nav-link">sobre nós</a>
-        <a href="#contact" class="nav-link">contato</a>
-      </div>
-    </nav>
-  </header>
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+      <i class="fa fa-bars"></i>
+    </span>
+    <img src="img/safe_devs_logo.png" class="logo" />
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="#" class="nav-link">serviços</a>
+      </li>
+      <li>
+        <a href="#" class="nav-link">sobre nós</a>
+      </li>
+      <li>
+        <a href="#" class="nav-link">contato</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- <div class="topnav" id="myTopnav">
+    <img src="img/safe_devs_logo.png" class="logo" />
+    <div class="nav-items">
+      <a href="#services" class="nav-link">serviços</a>
+      <a href="#about" class="nav-link">sobre nós</a>
+      <a href="#contact" class="nav-link">contato</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>  
+  </div> -->
 
   <div class="masthead">
-    <div class="head-title">
-      <h1>freelance<br>web<br>designers</h1>
-    </div>
   </div>
   <div class="services" id="services">
 
@@ -146,9 +162,9 @@
       </div>
     </div>
     <div class="social-items">
-      <a href="#" class="fa fa-instagram"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-envelope"></a>
+      <a href="#" class="fa fa-instagram social"></a>
+      <a href="#" class="fa fa-linkedin social"></a>
+      <a href="#" class="fa fa-envelope social"></a>
     </div>
   </div>
 
