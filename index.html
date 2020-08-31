@@ -3,6 +3,10 @@
 
 <head>
   <meta charset="UTF-8" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+  <link rel="manifest" href="/ico/site.webmanifest">
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
@@ -159,28 +163,73 @@
 
   <div class="about-img" id="about">
   </div>
-  <div class="about">
-    <div class="person">
-      <div class="person-name">
-        <h1>Fernanda Formiga</h1>
-      </div>
-      <div class="person-bio">
-        <p>Formando em arquitetura e urbanismo pela UnB e graduanda em Análise e Desenvolvimento de Sistemas. Trabalha
-          com as tecnologias Python, Javascript, HTML e CSS e tem experiência com programas de design/modelagem como
-          Adobe Illustrator, Adobe Photoshop, Procreate, SketchUp, entre outros.</p>
+
+  <div class="grid-container">
+    <div class="grid-item images"><img src="img/fernanda-square-2 (1).svg" class="person-img" /></div>
+    <div class="grid-item images"><img src="img/samuel-sq-4 (1).svg" class="person-img" /></div>
+    <div class="grid-item">
+      <div class="person">
+        <div class="person-name">
+          <div class="person-name">
+            <h1>Fernanda Formiga</h1>
+          </div>
+          <div class="person-bio">
+            <p>Formando em arquitetura e urbanismo pela UnB e graduanda em Análise e Desenvolvimento de Sistemas.
+              Trabalha
+              com as tecnologias Python, Javascript, HTML e CSS e tem experiência com programas de design/modelagem como
+              Adobe Illustrator, Adobe Photoshop, Procreate, SketchUp, entre outros.</p>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="person">
-      <div class="person-name">
-        <h1>Samuel Venzi</h1>
-      </div>
-      <div class="person-bio">
-        <p>Graduando em Engenharia Mecatrônica pela Universidade de Brasília. Desenvolvedor blockchain na empresa
-          GoLedger. Experiência com desenvolvimento de APIs e sistemas usando Golang, Node.js, MongoDB e React.js.</p>
+    <div class="grid-item">
+      <div class="person">
+        <div class="person-name">
+          <h1>Samuel Venzi</h1>
+        </div>
+        <div class="person-bio">
+          <p>Graduando em Engenharia Mecatrônica pela Universidade de Brasília. Desenvolvedor blockchain na empresa
+            GoLedger. Experiência com desenvolvimento de APIs e sistemas usando Golang, Node.js, MongoDB e React.js.
+          </p>
+        </div>
       </div>
     </div>
   </div>
+  </div>
+
+  <div class="grid-container-mobile">
+    <div class="grid-item"><img src="img/fernanda-round-2.svg" class="person-img-mobile" /></div>
+    <div class="grid-item">
+      <div class="person">
+        <div class="person-name">
+          <div class="person-name">
+            <h1>Fernanda Formiga</h1>
+          </div>
+          <div class="person-bio">
+            <p>Formando em arquitetura e urbanismo pela UnB e graduanda em Análise e Desenvolvimento de Sistemas.
+              Trabalha
+              com as tecnologias Python, Javascript, HTML e CSS e tem experiência com programas de design/modelagem como
+              Adobe Illustrator, Adobe Photoshop, Procreate, SketchUp, entre outros.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item"><img src="img/samuel-round-3.svg" class="person-img-mobile" /></div>
+    <div class="grid-item">
+      <div class="person">
+        <div class="person-name">
+          <h1>Samuel Venzi</h1>
+        </div>
+        <div class="person-bio">
+          <p>Graduando em Engenharia Mecatrônica pela Universidade de Brasília. Desenvolvedor blockchain na empresa
+            GoLedger. Experiência com desenvolvimento de APIs e sistemas usando Golang, Node.js, MongoDB e React.js.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
 
   <div class="contact" id="contact">
     <div class="call-to-action-bg">
@@ -188,18 +237,21 @@
         <div>
           <h1>Comece seu projeto</h1>
         </div>
-        <div>
+        <div class="vamos-conv">
           <h3>Vamos marcar uma reunião e conversar!</h3>
         </div>
-        <div>
+        <div class="btn">
           <a href="mailto:safedevsco@gmail.com">Vamos!</a>
+        </div>
+        <div class="btn-mobile">
+          <a href="mailto:safedevsco@gmail.com">Vamos conversar!</a>
         </div>
       </div>
     </div>
     <div class="social-items">
-      <a href="#" class="fa fa-instagram social"></a>
-      <a href="#" class="fa fa-linkedin social"></a>
-      <a href="#" class="fa fa-envelope social"></a>
+      <a href="https://instagram.com/safedevs.co" class="fa fa-instagram social"></a>
+      <a href="https://www.linkedin.com/company/safe-devs" class="fa fa-linkedin social"></a>
+      <a href="mailto:safedevsco@gmail.com" class="fa fa-envelope social"></a>
     </div>
   </div>
 
